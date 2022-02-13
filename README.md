@@ -1,1 +1,1 @@
-# Channel-Incorporation-Mechanisms-in-Multi-channel-Sleep-Scoring-
+# Channel-Incorporation-Mechanisms-in-Multi-channel-Sleep-Scoring
