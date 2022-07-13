@@ -11,6 +11,7 @@ by single-channel models for performance improvement to the multi-channel settin
 2. add deeper layers in CNNs to increase feature complexity
 3. apply attention mechanisms in RNNs to concentrate on the important parts of sleep sequences
 4. add residual connection that concatenates features of CNNs and RNNs to consider temporal and sequential features equally in the final classification of sleep scoring
+
 We test the improved multi-channel model on SleepEDF-13 and SHHS-1 and obtained the-state-of-the-art results. The model files and traing files as well as the trained models are included in the folder RQ1. Note that, we use an adpated nested cross validation for SleepEDF-13 which is a small data set, so we have a lot of trained models there. In this blog, we provide an average-performing trained model as the example.
 
 For the second researh question, we use the layer-wise relevance propagation (LRP) method and adopt an embedded channel attention network (eCAN) to extract channel importance information in both post-hoc and intrinsic explainability direction. In the folder RQ2, we provide the necessary code files for LRP and eCAN. The obtained results are included in the relevant folders.
