@@ -14,6 +14,6 @@ by single-channel models for performance improvement to the multi-channel settin
 We test the improved multi-channel model on SleepEDF-13 and SHHS-1 and obtained the-state-of-the-art results. The model files and traing files as well as the trained models are included in the folder RQ1. Note that, we use an adpated nested cross validation for SleepEDF-13 which is a small data set, so we have a lot of trained models there. In this blog, we provide an average-performing trained model as the example.
 
 For the second researh question, we use the layer-wise relevance propagation (LRP) method and adopt an embedded channel attention network (eCAN) to extract channel importance information in both post-hoc and intrinsic explainability direction. In the folder RQ2, we provide the necessary code files for LRP and eCAN. The obtained results are as follows.
-[LRP_withSL.pdf](https://github.com/Bobby-Lu/ChannelIncorporationMechanismsInMulti-channelSleepScoring/files/9100256/LRP_withSL.pdf)
+![LRP_withSL.pdf](https://github.com/Bobby-Lu/ChannelIncorporationMechanismsInMulti-channelSleepScoring/files/9100256/LRP_withSL.pdf)
 [LRP_withoutSL.pdf](https://github.com/Bobby-Lu/ChannelIncorporationMechanismsInMulti-channelSleepScoring/files/9100255/LRP_withoutSL.pdf)
 [CAN_withoutSL.pdf](https://github.com/Bobby-Lu/ChannelIncorporationMechanismsInMulti-channelSleepScoring/files/9100260/CAN_withoutSL.pdf)
