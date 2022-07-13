@@ -1,1 +1,3 @@
-# Channel-Incorporation-Mechanisms-in-Multi-channel-Sleep-Scoring
+# Analyzing channel contribution in multi-channel sleep scoring
+
+
