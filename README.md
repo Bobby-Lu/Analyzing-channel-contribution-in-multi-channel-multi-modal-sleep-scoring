@@ -10,6 +10,6 @@ For the first research question, we added the model features that have been succ
 3. apply attention mechanisms embedded in RNNs to concentrate on the important parts of sleep sequences;
 4. add residual connection that concatenates features of CNNs and RNNs to consider temporal and sequential features venly in the final classification of sleep stages.
 
-We tested the improved multi-channel model on SleepEDF-13 and SHHS-1 and obtained state-of-the-art results. The model files and training files are included in the folder RQ1.
+We tested the improved multi-channel model on SleepEDF-13 and SHHS-1 and obtained state-of-the-art results. The model files and training files are included in the folder RQ1. A test data example for SleepEDF-13 is available: https://www.dropbox.com/sh/k5t5c3r33saapvk/AACsacvkORhZbygR47Ft2AkNa?dl=0.
 
 For the second researh question, we used the layer-wise relevance propagation (LRP) method and adopted an embedded channel attention network (eCAN) to extract channel importance information in both post-hoc and intrinsic explainability directions. In the folder RQ2, we provide necessary code files for LRP and eCAN. The obtained results are included as well.
